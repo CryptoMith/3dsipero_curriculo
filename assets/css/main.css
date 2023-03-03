@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px dashed lightcoral;
-}
+} */
 
 :root {
     --primary-color: #F20544;
@@ -39,10 +39,32 @@
 .skills__title {
     font-size: 0.9rem;
     font-weight: bold;
-    color: var(--light-color);
+    color: var(--tertiary-color);
 }
 
 .skills__label {
     font-size: 0.8rem;
     color: var(--light-color);
+}
+
+.skills__description {
+    font-size: var(--medium-size);
+}
+
+.skills__description-sub {
+    font-size: var(--small-size);
+}
+
+.info__title {
+    color: var(--quaternary-color);
+}
+
+.info__left {
+    font-size: var(--medium-size);
+    color: var(--quinary-color);
+}
+
+.info__right {
+    font-size: var(--medium-size);
+    color: var(--quaternary-color);
 }
